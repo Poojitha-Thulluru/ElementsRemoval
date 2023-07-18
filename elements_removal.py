@@ -3,6 +3,7 @@ def get_min_cost(num_array: list) -> int:
     cost = 0
     for index in range(len(num_array)):
         cost += num_array[index] * (index + 1)
+
     return cost
 
 
